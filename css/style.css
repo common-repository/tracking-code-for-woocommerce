@@ -1,0 +1,23 @@
+.afs_tracking_class ul li {
+	margin-bottom: 0 !important;
+}
+
+.afs_tracking_class select {
+	width: 10%;
+}
+
+.afs_tracking_class input[type=url] {
+	width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+	.afs_tracking_class select,
+	.afs_tracking_class input[type=url] {
+		width: 100%;
+	}
+	
+	.afs_tracking_class select {
+		max-width: none;
+	}
+}
